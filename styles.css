@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Arvo:wght@400;700&family=Noto+Sans+Mono:wght@400;700&display=swap');
+
 body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     margin: auto;
@@ -17,17 +19,74 @@ main {
 nav {
     width: 100%;
     display: flex;
-    background-color: rgb(255, 161, 161);
+    background-color: #FF3358;
+    height: 120px;
+    font-family: 'Arvo', 'Noto Sans Mono';
 }
 
+svg {
+   width: 400px; 
+}
+
+svg:hover .letter {
+    animation: bounce 1s ease;
+}
+
+svg:hover .letter:nth-child(2){
+    animation-delay: 0.1s;
+}
+
+svg:hover .letter:nth-child(3){
+    animation-delay: 0.2s;
+}
+
+svg:hover .letter:nth-child(4){
+    animation-delay: 0.3s;
+}
+
+svg:hover .letter:nth-child(5){
+    animation-delay: 0.4s;
+}
+
+svg:hover .letter:nth-child(6){
+    animation-delay: 0.5s;
+}
+
+svg:hover .letter:nth-child(7){
+    animation-delay: 0.6s;
+}
+
+svg:hover .letter:nth-child(8){
+    animation-delay: 0.7s;
+}
+
+
+
+
+
+@keyframes bounce {
+    0% {
+        transform: translateY(0);
+    }
+    60% {
+        transform: translateY(-20px);
+    }
+    90% {
+        transform: translateY(0);
+    }
+}
+
+
 nav * {
-    color: black;
+    color: white;
     vertical-align: middle;
+    font-size: 25px;
 }
 
 nav div {
+    display: flex;
+    align-items: center;
     justify-content: center;
-    
 }
 
 footer {
@@ -53,12 +112,27 @@ footer {
 }
 
 #right-side p {
-    padding-top: 8px;
-    margin-right: 10px;
+   
+    transition: 0.2s ease-in-out;
+}
+
+#right-side p:hover, #right-side p:hover a{
+    color: white;
+    background-color:#FF3358;
+
 }
 
 #right-side p a {
+    padding: 8px;
+    margin-right: 10px;
+    border: 2px solid white;
+    border-radius: 5px;
+    background-color:white;
     vertical-align: middle;
+    font-weight: bold;
+    font-size: 30px;
+    color: #FF3358;
+    transition: 0.2s ease-in-out;
 }
 
 .recept-item {
@@ -108,14 +182,19 @@ input, textarea{
 
 input[type="submit"] {
     border: none;
-    width: 100px;
-    background-color: rgb(255, 161, 161);
+    border-radius: 10px;
+    width: 120px;
+    background-color: #FF3358;
+    color: white;
     cursor: pointer;
     transition: ease-in-out 0.15s;
+    font-family: 'Arvo', arial;
+    font-weight: normal;
+    font-size: 16px;
 }
 
 input[type="submit"]:hover {
-    background-color: rgb(255, 129, 129);
+    background-color: #ff0634
 
 }
 

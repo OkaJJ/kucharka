@@ -13,8 +13,10 @@
     ?>
     <main>
         <h2>chichachuchachi hlavni stranecka</h2>
-        <p>netrolte prosim :(</p>
-        <p>verze 4 hodne popacovany :o</p>
+        <p>fuha tohle byla teda fuska :}</p>
+        <p>verze 5 extrem uz mam dost</p>
+        <p>tuhle vecicku tu nechavam, sral jsem se az moc s headerem a furt se mi nelibi ty tlacitka :D (nikdy se mi nelibi moje tlacitka smh)</p>
+        <p>barvicka ale hezka, trochu mi pripomina cssd omegalul</p>
         <ul>
             <li>davam sbohem spratkovine, pridani receptu, prohlizeni a detail receptu jsou nyni v ciste cestine :{</li>
             <li>v pristi verzi uz zmizi tyhle bs vecicky a prepracuju navbar aby vypadal slusne :D</li>
