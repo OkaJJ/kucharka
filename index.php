@@ -23,7 +23,7 @@
             <li>a footer snad bude tez vypadat nejak lip nez ted (strasna picovina smh)</li>
         </ul>
         <p>jeden trending gif na zaver</p>
-        <img src="https://c.tenor.com/24aVYR7egHEAAAAC/cute-dog.gif" alt="trending gif">
+        <img src="https://c.tenor.com/pW2_h3T4y5wAAAAS/%E0%B9%81%E0%B8%A1%E0%B8%A7-%E0%B8%8B%E0%B9%88%E0%B8%AD%E0%B8%99.gif" alt="trending gif">
     </main>
     <?php include "web_parts/footer.php"?>
 </body>
