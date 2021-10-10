@@ -1,0 +1,165 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: auto;
+    min-height: 100vh;
+    position: relative;
+}
+
+body * {
+    text-decoration: none;
+}
+
+main {
+    width: 80%;
+    margin: 0 auto;
+}
+
+nav {
+    width: 100%;
+    display: flex;
+    background-color: rgb(255, 161, 161);
+}
+
+nav * {
+    color: black;
+    vertical-align: middle;
+}
+
+nav div {
+    justify-content: center;
+    
+}
+
+footer {
+    position: absolute;
+    width: 100%;
+    margin: auto;
+    bottom: 0;
+    height: 0px;
+}
+
+#left-side {
+    width: 50%;
+}
+
+#left-side {
+    text-align: center;
+}
+
+#right-side {
+    width:50%;
+    display: flex;
+    justify-content: center;
+}
+
+#right-side p {
+    padding-top: 8px;
+    margin-right: 10px;
+}
+
+#right-side p a {
+    vertical-align: middle;
+}
+
+.recept-item {
+    border: black 1px solid;
+    margin: 10px 0;
+    transition: ease-in-out 0.15s;
+}
+
+.recept-item:hover {
+    transform: scale(1.01);
+}
+
+.recept-item h2, .recept-item p {
+    margin-left: 15px;
+    color: black;
+}
+
+.browse-goback {
+    margin: auto;
+    width: 500px;
+    text-align: center;
+}
+
+.recept-postup {
+    font-size: 0.8em;
+    font-weight: normal;
+}
+
+fieldset {
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+fieldset div {
+    margin: 3px;
+}
+
+fieldset legend {
+    font-weight: bold;
+}
+
+input, textarea{
+    border: 1px black solid;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+input[type="submit"] {
+    border: none;
+    width: 100px;
+    background-color: rgb(255, 161, 161);
+    cursor: pointer;
+    transition: ease-in-out 0.15s;
+}
+
+input[type="submit"]:hover {
+    background-color: rgb(255, 129, 129);
+
+}
+
+.submit-btn {
+    text-align: center;
+}
+
+label:first-child {
+    display: inline-block;
+    width: 200px;
+}
+
+label {
+    vertical-align: top;
+    text-align: right;
+    margin-top: 8px;
+}
+
+#nazev, #popis {
+    width: 300px;
+}
+
+#cas {
+    width: 100px;
+}
+
+#jmeno {
+    width:200px;
+}
+
+#page-detail h1 {
+    margin-bottom: 0;
+}
+
+#page-detail h2 {
+    font-weight:normal;
+    margin-top: 0;
+}
+
+#page-detail h3 {
+    font-weight:normal;
+    margin: 0 auto;
+}
+
+#page-detail p {
+    margin-top: 0;
+}
