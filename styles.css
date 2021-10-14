@@ -242,3 +242,29 @@ label {
 #page-detail p {
     margin-top: 0;
 }
+
+.notif-box {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.pass p {
+    border-radius: 10px;
+    background-color: rgba(50, 255, 50, 0.568);
+    font-weight: bold;
+    border: 5px rgb(50, 255, 50) solid;
+    padding: 30px;
+    display: inline-block;
+}
+
+
+.fail p {
+    border-radius: 10px;
+    background-color: rgba(255, 50, 50, 0.568);
+    font-weight: bold;
+    border: 5px rgb(255, 50, 50) solid;
+    padding: 30px;
+    display: inline-block;
+}
